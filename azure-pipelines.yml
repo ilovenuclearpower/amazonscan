@@ -22,6 +22,3 @@ steps:
   workingDirectory: '/home/vsts/work/1/s/barcodescanner'
   
 - task: PublishBuildArtifacts@1
-  inputs:
-      pathtoPublish: $(Build.ArtifactStagingDirectory)
-      artifactName: barcodescannerbuild
